@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agencia Sephora</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      background: linear-gradient(120deg, #f0c6f0, #ffd1dc);
+      color: #333;
+    }
+
+    header {
+      background-color: #ff4d6d;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 2em;
+      text-shadow: 2px 2px #000;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #333;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 25px;
+      margin: 5px;
+      font-weight: bold;
+      border-radius: 5px;
+      background-color: #444;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #555;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      font-size: 1.3em;
+      color: #333;
+      text-shadow: 1px 1px #fff;
+    }
+
+    .sections {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    .section {
+      background-color: white;
+      width: 300px;
+      margin: 15px;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .section:hover {
+      transform: scale(1.05);
+    }
+
+    .section img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>Agencia Sephora</header>
+
+<nav>
+  <a href="#inicio">Inicio</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#galeria">Galería</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero" id="inicio">
+  <h2>Bienvenido a Agencia Sephora</h2>
+  <p>Tu comunidad pixelada y creativa, inspirada en mundos virtuales.</p>
+</section>
+
+<section class="sections" id="servicios">
+  <div class="section">
+    <h3>Diseño Web</h3>
+    <p>Desarrollamos sitios web modernos y con estilo único.</p>
+    <img src="https://via.placeholder.com/250x150.png?text=Pixel+Art+Web" alt="Pixel Art Web">
+  </div>
+  <div class="section">
+    <h3>Eventos Virtuales</h3>
+    <p>Organizamos encuentros y actividades para tu comunidad.</p>
+    <img src="https://via.placeholder.com/250x150.png?text=Pixel+Art+Evento" alt="Pixel Art Evento">
+  </div>
+  <div class="section">
+    <h3>Asesorías</h3>
+    <p>Te guiamos en la creación de tu espacio digital.</p>
+    <img src="https://via.placeholder.com/250x150.png?text=Pixel+Art+Asesoria" alt="Pixel Art Asesoria">
+  </div>
+</section>
+
+<section class="sections" id="galeria">
+  <div class="section">
+    <h3>Galería Pixel</h3>
+    <img src="https://via.placeholder.com/250x150.png?text=Pixel+1" alt="Pixel 1">
+  </div>
+  <div class="section">
+    <h3>Galería Pixel</h3>
+    <img src="https://via.placeholder.com/250x150.png?text=Pixel+2" alt="Pixel 2">
+  </div>
+  <div class="section">
+    <h3>Galería Pixel</h3>
+    <img src="https://via.placeholder.com/250x150.png?text=Pixel+3" alt="Pixel 3">
+  </div>
+</section>
+
+<section class="sections" id="contacto">
+  <div class="section">
+    <h3>Contacto</h3>
+    <p>Email: contacto@agenciasephora.com</p>
+    <p>Tel: +56 9 1234 5678</p>
+  </div>
+</section>
+
+<footer>
+  &copy; 2025 Agencia Sephora. Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
