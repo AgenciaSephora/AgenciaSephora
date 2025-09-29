@@ -1,0 +1,10 @@
+body {font-family: Arial, sans-serif; background:#0f0f0f; color:white; margin:0;}
+header {background:#1a1a1a; padding:20px; text-align:center;}
+header h1 {color:#ff0055;}
+nav {background:#111; padding:10px; text-align:center;}
+nav a {color:white; margin:0 10px; text-decoration:none;}
+nav a:hover {color:#ff0055;}
+.hero {height:200px; display:flex; align-items:center; justify-content:center; background:#333; color:#fff;}
+section {padding:40px; text-align:center;}
+.card {background:#1c1c1c; margin:10px auto; padding:20px; border-radius:8px; width:200px;}
+footer {background:#111; text-align:center; padding:20px; color:#aaa;}
